@@ -5,3 +5,8 @@ whole_body_tracking/
 modifer/
 before_complex/
 __pycache__/
+*.mp4
+batch_output_high_freq/*.mp4
+batch_output_high_freq/*.png
+visualization/*.mp4
+visualization/*.png
