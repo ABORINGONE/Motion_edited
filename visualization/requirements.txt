@@ -1,0 +1,63 @@
+# Python NPZ/XML/Mesh 可视化工具依赖列表
+# 安装方法: pip install -r requirements.txt
+
+# 基础依赖 (必需)
+numpy>=1.20.0
+matplotlib>=3.3.0
+
+# 物理仿真引擎
+pybullet>=3.2.0
+
+# 网格和几何处理
+trimesh>=3.9.0
+
+
+# 科学计算
+scipy>=1.7.0
+
+# XML处理增强
+lxml>=4.6.0
+
+# 数据处理和分析
+pandas>=1.3.0
+
+# 图像和动画处理
+imageio>=2.9.0
+imageio-ffmpeg>=0.4.0
+pillow>=8.0.0
+
+# 进度条和用户界面
+tqdm>=4.62.0
+
+# 可选GUI支持
+PyQt5>=5.15.0
+
+# 交互式绘图 (可选)
+plotly>=5.0.0
+dash>=2.0.0
+
+# 颜色处理
+colorama>=0.4.0
+
+# 配置文件处理
+pyyaml>=5.4.0
+toml>=0.10.0
+
+# 数学和几何工具
+shapely>=1.7.0
+networkx>=2.6.0
+
+# 性能优化
+numba>=0.54.0
+
+# 测试工具 (开发用)
+pytest>=6.0.0
+pytest-cov>=2.12.0
+
+# 代码质量 (开发用)  
+black>=21.0.0
+flake8>=3.9.0
+
+# 文档生成 (开发用)
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
