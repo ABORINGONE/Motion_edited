@@ -4,3 +4,4 @@ mink/
 whole_body_tracking/
 modifer/
 before_complex/
+__pycache__/
