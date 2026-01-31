@@ -7,12 +7,12 @@ def generate_video(xml_path, npz_path, output_video_path, width=960, height=540,
     """
     # Try to import MuJoCoAnimationPlayer
     try:
-        from mujoco_player_new import MuJoCoAnimationPlayer
+        from visualization.mujoco_player_new import MuJoCoAnimationPlayer
     except ImportError:
         # If not found in current path, try adding the directory of this script or parent
         sys.path.append(os.path.dirname(os.path.abspath(__file__)))
         try:
-            from mujoco_player_new import MuJoCoAnimationPlayer
+            from visualization.mujoco_player_new import MuJoCoAnimationPlayer
         except ImportError:
             print("Error: MuJoCoAnimationPlayer could not be imported.")
             return False
