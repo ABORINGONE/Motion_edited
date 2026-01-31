@@ -10,3 +10,6 @@ batch_output_high_freq/*.mp4
 batch_output_high_freq/*.png
 visualization/*.mp4
 visualization/*.png
+onnx/
+result/
+*.txt
